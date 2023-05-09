@@ -1,3 +1,5 @@
-made by me, pako
+### Ja Morant (NBA Player) 3D Card Showcase
 
-Header and Footer templates by mdb
+Made by @0xpako
+
+Footer Animation by Nadine Coelho
