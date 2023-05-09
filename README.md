@@ -3,7 +3,7 @@
 <img
   src="https://raw.githubusercontent.com/0xpako/Morant-Showcase/main/picturepreview.jpg"
   alt="Preview"
-  style="display: inline; width: 75%; height: 75%">
+  style="display: inline; width: 60%; height: 60%">
 
 3D Card Showcase like this is a great starting point for any shape that you would want to place. It can be a sphere, a cone or anything you can think of.
 To get to know more, visit ThreeJS Docs at: https://threejs.org/docs/
