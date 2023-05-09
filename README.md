@@ -39,5 +39,5 @@ npm run build
 
 Once built, it is up for production and your distribution,
 
-# Once you build using this app, please share your app in the discussions of this repository, it helps us all to build better!
-## Thank you! ~Pako
+# Once you build using this app, please share your app within this repository (discussions, different branch, forks...), it helps us all to build better!
+Thank you! ~Pako
