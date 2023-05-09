@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ja Morant Card Showcase - 0xPako</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/qPjSsLD8_4xfavi.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+          />
+    <!-- Google Fonts Roboto -->
+    <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+          />
+    <!-- MDB -->
+    <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+          rel="stylesheet"
+          />
+
+    <style>
+
+      body {
+        background-color: hsl(179, 100%, 79%)
+        overflow-x: hidden;
+      }
+
+      .webgl {
+        position: absolute;
+        top: 0;
+        left: 0;
+        mix-blend-mode: difference;
+        outline: 5cm;
+        z-index: -9999;
+      }
+
+      .text-theme {
+        color: hsl(0, 0%, 6%)
+      }
+    /*  .bg.theme-light {
+        background-color: hsl(179, 100%, 79%);
+      }
+      .bg.theme-dark {
+        background-color: hsl(179, 100%, 9%) !important;
+      } */
+      .navbar {
+         border-color: #000000 !important; border-width: 3px !important;
+         background-image: linear-gradient(to right, white , #36eaff);
+         color:hsl(0, 0%, 6%);
+      }
+
+      .solid {border-bottom-style: solid;}
+
+   /*   .footie {
+        margin-top: 750px;
+        bottom: 0;
+        width: 100%;
+        background-color: #20b4c0;
+      } */
+
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer {
+  margin-top: 787px;
+        bottom: 0;
+        width: 100%;
+        position: relative;
+  width: 100%;
+  background: #36eaff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.wave {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url("/img/wave.png");
+  background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+  z-index: 1000;
+  opacity: 0.2;
+  bottom: 15px;
+  animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+  z-index: 999;
+  opacity: 0.7;
+  bottom: 20px;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: -1000px;
+  }
+  100% {
+    background-positon-x: 0px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    
+    <header>
+
+<!-- Navbar -->
+<nav class="navbar solid navbar-expand-lg navbar-light
+ bg-theme-light
+ shadow-100
+ fixed-top
+ ">
+
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="/img/qPjSsLD8_4xfavi.png"
+          height="35"
+          alt="MP Logo"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/0xpako"><b>Made by 0xPako</b></a>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+
+      <!-- Notifications -->
+      <div class="dropdown">
+        <a
+          class="text-reset me-3 dropdown-toggle hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuLink"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bell"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">1</span>
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuLink"
+        >
+          <li>
+            <a class="dropdown-item" href="https://github.com/0xpako">Check out my Github for more!</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Star this repo if you can, please :D</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Avatar -->
+      <div class="dropdown">
+        <a
+          class="dropdown-toggle d-flex align-items-center hidden-arrow"
+          href="#"
+          id="navbarDropdownMenuAvatar"
+          role="button"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <img
+            src="/img/pakooo.jpg"
+            class="rounded-circle"
+            height="25"
+            alt="Black and White Portrait of a Man"
+            loading="lazy"
+          />
+        </a>
+        <ul
+          class="dropdown-menu dropdown-menu-end"
+          aria-labelledby="navbarDropdownMenuAvatar"
+        >
+          <li>
+            <a class="dropdown-item" href="https://github.com/0xpako">My profile</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Settings</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+    </header>
+
+    <main>
+
+      <div class="container">
+        <section>
+   <!--     <div class="vh-100 d-flex align-items-center justify-content-center">
+           <div class="text-center">
+            <h1 class="display-1 text-uppercase fw-bold text-theme mb-4">Act Local, think global</h1>
+          
+          <a
+          href="#section-content"
+           role="button" 
+          class="btn btn-dark bg-theme-dark btn-lg px-5 py-3">Button
+        </a>
+      </div>
+        </div> -->
+          <canvas class="webgl"></canvas>
+        </section>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/0xpako">
+            <ion-icon name="logo-github"></ion-icon>
+          </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/paczkowski/">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="https://github.com/0xpako">Made by 0xPako</a></li>
+      </ul>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+    <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+            ></script>
+
+    <!-- Three.js core -->
+    <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+            ></script>
+    <!-- Three.js setup -->
+    <script type="text/javascript">
+
+      // Texture
+      const textureLoader = new THREE.TextureLoader();
+      const normalTexture = textureLoader.load("/img/TakeTheP.jpg");
+
+      // Canvas
+      const canvas = document.querySelector("canvas.webgl");
+
+      // Scene
+      const scene = new THREE.Scene();
+
+      // Objects
+      const geometry = new THREE.BoxGeometry(2.6, 4.5, 0.045); 
+
+      // Materials
+      const material = new THREE.MeshMatcapMaterial();
+      material.map = normalTexture;
+
+      // Mesh
+      const shape = new THREE.Mesh(geometry, material);
+      scene.add(shape);
+
+      // Lights
+      const pointLight = new THREE.PointLight(0xffffff, 1);
+      pointLight.position.x = 2;
+      pointLight.position.y = 3;
+      pointLight.position.z = 4;
+      scene.add(pointLight);
+
+      /**
+       * Sizes
+       */
+      const sizes = {
+        width: window.innerWidth,
+        height: window.innerHeight,
+      };
+
+      window.addEventListener("resize", () => {
+        // Update sizes
+        sizes.width = window.innerWidth;
+        sizes.height = window.innerHeight;
+
+        // Update camera
+        camera.aspect = sizes.width / sizes.height;
+        camera.updateProjectionMatrix();
+
+        // Update renderer
+        renderer.setSize(sizes.width, sizes.height);
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      });
+
+      /**
+       * Camera
+       */
+      // Base camera
+      const camera = new THREE.PerspectiveCamera(
+        75,
+        sizes.width / sizes.height,
+        0.1,
+        100
+      );
+      camera.position.x = 0;
+      camera.position.y = 0;
+      camera.position.z = 5;
+      scene.add(camera);
+
+      /**
+       * Renderer
+       */
+      const renderer = new THREE.WebGLRenderer({
+        canvas: canvas,
+      });
+      renderer.setSize(sizes.width, sizes.height);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+      /**
+       * Animate
+       */
+
+       document.addEventListener("mousemove", onDocumentMouseMove);
+
+       let mouseX = 0;
+       let mouseY = 0;
+
+       let targetX = 0;
+       let targetY = 0;
+
+       const windowX = window.innerWidth / 2;
+       const windowY = window.innerHeight / 2;
+
+       function onDocumentMouseMove(event) {
+        mouseX = event.clientX - windowX;
+        mouseY = event.clientY - windowY;
+       }
+
+       const updateShape = (event) => {
+        shape.positiony = window.scrolly * 0.001;
+       };
+
+       window.addEventListener("scroll", updateShape);
+
+      const clock = new THREE.Clock();
+
+      const tick = () => {
+
+        targetX = mouseX * 0.001;
+        targetY = mouseY * 0.001;
+
+        const elapsedTime = clock.getElapsedTime();
+
+        // Update objects
+        shape.rotation.y = 0.5 * elapsedTime;
+
+        shape.rotation.y += 0.5 * (targetX - shape.rotation.y);
+        shape.rotation.x += 0.5 * (targetY - shape.rotation.x);
+
+        // Update Orbital Controls
+        // controls.update()
+
+        // Render
+        renderer.render(scene, camera);
+
+        // Call tick again on the next frame
+        window.requestAnimationFrame(tick);
+      };
+
+      tick();
+    </script>
+  </body>
+</html>
